@@ -1,7 +1,15 @@
-import section1.Variable
+import basic.DataType
+import basic.Variable
 
 fun main() {
+
+    println("*--------------------------------* about variable *-----------------------------------------------*")
     val variable = Variable()
-    variable.variableExercise()
+    variable.variableAndMathCalculation()
+
+    println("*--------------------------------* about data type *----------------------------------------------*")
+
+    val dataType = DataType()
+    dataType.allTheDataTypeKotlinHas()
 
 }
