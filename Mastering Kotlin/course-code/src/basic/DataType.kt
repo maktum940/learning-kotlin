@@ -9,13 +9,13 @@ class DataType {
      */
     fun allTheDataTypeKotlinHas(){
         val myName : String = "Maktum"
-    val myAge : Int = 21
+        val myAge : Int = 21
         val myPhoneNumber : Long = 12345678901
         val myCGPA : Float = 3.5f
         val valueOfPi : Double = 3.14159265358979
         val boolean : Boolean = true
 
-        println("My name is: $myName, My age is: $myAge, My phone number is: $myPhoneNumber and My CGP is: $myCGPA.")
-        println("The value of pi is: $valueOfPi. The boolean value is: $boolean")
+        println("\nMy name is: $myName, My age is: $myAge, My phone number is: $myPhoneNumber and My CGP is: $myCGPA.")
+        println("The value of pi is: $valueOfPi. The boolean value is: $boolean\n")
     }
 }
